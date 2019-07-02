@@ -1,0 +1,16 @@
+1.	/* Prints Happy Birthday every second for 24 hours */
+2.	var startTime = new Date().getTime();
+3.	var interval = setInterval(function(){
+4.	    if(new Date().getTime() - startTime > 86400000) {
+5.	        clearInterval(interval);
+6.	        return;
+7.	      }
+8.	    console.log("Happy Birthday!");
+9.	}, 1000);
+
+
+
+
+
+
+/* prints hbd*/
